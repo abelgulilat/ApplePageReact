@@ -1,18 +1,10 @@
-import Nav from "./Apple/Nav"
-import Top from "./Apple/Top"
-import Middle from "./Apple/Middle"
-import Footer from "./Apple/Footer";
-import Footerupper from "./Apple/Footerupper";
-
-// HTML
+// import All from "./Apple/All"
+import Home from "../src/Component/Home.js"
 function App() {
   return (
     <div className="app">
-      <Nav />
-      <Top />
-      <Middle />
-      <Footerupper />
-      <Footer />
+        {/* <All /> */}
+        <Home />
     </div>
   );
 }
